@@ -69,6 +69,7 @@ body {
   background-color: #fff;
 }
 
+
 [tabindex="-1"]:focus:not(:focus-visible) {
   outline: 0 !important;
 }
@@ -87,6 +88,12 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+.p2{
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 1.2;
 }
 
 abbr[title],
@@ -199,6 +206,11 @@ figure {
 img {
   vertical-align: middle;
   border-style: none;
+}
+
+
+.is-bottom {
+  margin-bottom: -0.1rem;
 }
 
 svg {
@@ -9998,8 +10010,13 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.icon-card{
+  height: 120px;
+  width: auto;
+}
+
 .page-section {
-  padding: 6rem 0;
+  padding: 1rem 0;
 }
 .page-section .page-section-heading {
   font-size: 2.25rem;
